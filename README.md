@@ -91,4 +91,4 @@ const searchMovies = async (query) => {
 
 The project link:
 
-- [Vercel](https://vercel.com/)
+- [Vercel](https://movielookup.vercel.app/)
