@@ -13,8 +13,8 @@ This is a simple movie search website that allows users to search for movies and
 
 ## Technology Stack
 
-- **Frontend:** React (using Create React App or Vite)
-- **Styling:** Vanilla CSS or Tailwind CSS
+- **Frontend:** React (using Vite)
+- **Styling:** Vanilla CSS and Tailwind CSS
 - **API:** OMDB API for fetching movie data
 
 ## API Setup Guide
