@@ -49,14 +49,14 @@ const SearchMovies = () => {
           placeholder="Search Movie..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="border-1 w-100% p-2 rounded-2xl outline-none text-blue-600"
+          className="border-1 md:w-md lg:md p-1 lg:p-2 rounded-xl lg:rounded-2xl outline-none text-blue-600"
         />
         <div className="mt-6">
           {loading && <p className="text-blue-600">Loading...</p>}
           {error && <p className="text-red-500 font-semibold">{error}</p>}
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-5 w-[80dvw]">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 w-[80dvw]">
         {movies.map((movie) => {
           const { imdbID, Title, Year, Poster } = movie;
           return (
